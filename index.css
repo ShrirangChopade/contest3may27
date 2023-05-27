@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.ruda-font{
+    font-family: 'Bebas Neue', sans-serif !important;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-icons-content{
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.main-section{
+    margin-top: 65px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./pizza.png");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.main-section-title{
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+    color: white;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.main-section-hr{
+    width: 30%;
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    border-color: #F24C4C;
+    background-color: #F24C4C;
+    height: 5px;
+}
+
+.main-section-content{
+    text-align: left;
+    position: absolute;
+    top:60%;
+    left: 10%;
+    width: 30%;
+}
+
+.about-us{
+    
+    color: white;
+    font-family: 'Bebas Neue', sans-serif !important;
+    letter-spacing: 2px;
+}
+
+.about-us-title{
+    font-size: xx-large;
+    font-weight: 100px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.about-us-items{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 50px;
+}
+.about-us-content{
+    flex: 1;
+}
+
+.about-us-img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-us-img img {
+    width: 400px;
+    height: 400px;
+}
+
+.about-us-hr {
+    width: 30%;
+    position: absolute;
+    left:35%;
+    border-color: #F24C4C;
+    background-color: #F24C4C;
+    height: 5px;
+}
+
+.about-us-content-hr{
+    width: 30%;
+    position: absolute;
+    top:135%;
+    left: 10%;
+    border-color: #F24C4C;
+    background-color: #F24C4C;
+    height: 2px;
+}
+
+.menu{
+    color:white;
+    margin-top:60px;
+    font-family: 'Bebas Neue', sans-serif !important;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.menu-container-title-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: 100px;
+}
+
+.menu-hr{
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    border-color: #F24C4C;
+    background-color: #F24C4C;
+    height: 5px;
+}
+
+.menu-container-content{
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.menu-grid{
+    width:80%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+
+.menu-grid-item{
+    display: flex;
+}
+
+.menu-grid-item-name{
+    color:#F2C94C;
+    padding-bottom: 20px;
+}
+.menu-item{
+    margin-left: 5px;
+}
+
+.find-us{
+    margin-top:60px ;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif !important;
+    letter-spacing: 2px;
+}
+
+.find-us-title{
+    font-size: xx-large;
+    font-weight: 100px;
+}
+
+.find-us-hr{
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    border-color: #F24C4C;
+    background-color: #F24C4C;
+    height: 5px;
+}
+
+.find-us-container{
+    margin-top: 50px;
+    display: flex;
+    width: 75%;
+    gap: 50px;
+    justify-content: center;
+}
+
+.find-us-grid{
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+.icon-size{
+    font-size: 40px;
+}
+
+.find-us-flex{
+    display: flex;
+}
+
+.find-us-num{
+    padding-left: 20px;
+}
+
+.footer{
+    margin-top: 170px;
+    margin-bottom: 50px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
